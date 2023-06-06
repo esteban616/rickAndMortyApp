@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+h1,h2,h3,p,ul{
+    margin-top: 0;
+    margin-bottom: 0;
+}

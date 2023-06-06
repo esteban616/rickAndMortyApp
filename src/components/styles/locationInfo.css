@@ -1,0 +1,34 @@
+.location{
+    background-color: #062226;
+    margin: 3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.location_name{
+    text-align: center;
+    color: #40da03;
+    margin-bottom: 0.5em;
+}
+
+.location_data{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 1em;
+}
+.location_item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.location_value{
+    opacity: 0.5;
+}

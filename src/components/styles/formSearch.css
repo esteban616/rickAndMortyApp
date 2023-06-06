@@ -1,0 +1,33 @@
+.fromSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+
+.formInput{
+    width: 200px;
+    height: 25px;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border: none;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+.formBtn{
+    width: 60px;
+    height: 25px;
+    border: none;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    background-color: #40da03;
+    cursor: pointer;
+    transition: transform 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.formBtn:hover{
+    transform: scale(1.05);
+}

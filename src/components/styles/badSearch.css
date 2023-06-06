@@ -1,0 +1,43 @@
+.badSearchCard{
+    font-size: 1rem;
+    width: 100%;
+    max-width: 350px;
+    background-color: #062226;
+    color: white;
+    border-radius: 0.8em;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+}
+
+.messageBs{
+    text-align: center;
+    margin: 0.2em;
+    color: #40da03;
+}
+
+.fadeIn {
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  .fadeOut {
+    animation: fadeOut 0.5s ease-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
