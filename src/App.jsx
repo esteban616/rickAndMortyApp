@@ -23,7 +23,7 @@ function App() {
   return (
     <div className='app'>
       <div className='imgRandM'>
-       <img src="../public/bGRick.png " alt="rick and morty" className='imgHeader' />
+       <img src="../bGRick.png " alt="rick and morty" className='imgHeader' />
       </div>
       <FormSearch setIdLocation={setIdLocation}/>
      {
